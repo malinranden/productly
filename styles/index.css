@@ -5,15 +5,20 @@ body {
     margin: 0px 145px;
 }
 
+/*all sections*/
+.logo-and-navbar, .section-1, .section-2, .section-3, .section-4, .section-5, footer {
+    max-width: 1126px;
+    width: 100%;
+}
+
+
 .logo-and-navbar { /*parent container*/
     background-color: aquamarine;
-    width: 100%;
-    max-width: 100%; /*?*/
     height: 78px;
     margin-top: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-between; 
+    justify-content: space-between;
 }
 
 .logo-and-logoname {
@@ -51,23 +56,126 @@ body {
 
 } */
 
+
+
+
+
+
 .section-1 {
     background-color: pink;
+    height: 496px;
+    margin-top: 30px;
+    margin-bottom: 110px;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.section-2 {
+.sec-1-text-and-buttons {
+    width: 518px;
+    height: 331px;
+}
+
+.sec-1-img {
+    width: 605px;
+    height: 496px;
+}
+
+
+
+
+.section-2 { /*de tre delarna*/
     background-color: coral;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 543px;
+    margin-bottom: 120px;
 }
+
+.sec-2-container { /*de fyra boxarna*/
+    max-width: 1126px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-1, .card-2, .card-3, .card-4 { /*design for boxes*/
+    max-width: 240px;
+    width: 100%;
+    height: 178px;
+}
+
+.sec-2-container img {
+    width: 51px;
+    height: 50px;
+}
+
+
+
+
 .section-3 {
     background-color: cornflowerblue;
+    height: 574px;
+    margin-bottom: 101px;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
+
+.sec-3-text {
+    width: 486px;
+    height: 531px;
+}
+
+.sec-3-img {
+    width: 520px;
+    height: 574px;
+}
+
+
+
+/*SECTION 4 - man with computer*/
 
 .section-4 {
     background-color: bisque;
+    height: 521px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
+.image-sec-4 {
+    width: 531px;
+    height: 521px;
+}
+
+.text-sec-4 {
+    width: 486px;
+    height: 427px;
+    background-color: aqua;
+    
+}
+
+
+
+.tick-list {
+    background-color: rgb(121, 92, 56);
+    height: 216px;
+    width: 486px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+ 
+
+
 
 .section-5 {
     background-color: darkkhaki;
@@ -76,3 +184,5 @@ body {
 footer {
     background-color: burlywood;
 }
+
+

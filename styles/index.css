@@ -156,22 +156,37 @@ body {
     width: 486px;
     height: 427px;
     background-color: aqua;
-    
 }
-
-
 
 .tick-list {
     background-color: rgb(121, 92, 56);
     height: 216px;
-    width: 486px;
+    max-width: 486px; /*52+30+35*/
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.tick-icon {
+    /* max-width: 486px;
+    width: 100%; */
+    /* height: 216px; */
     display: flex;
     align-items: center;
-    flex-direction: row;
-    flex-wrap: nowrap;
     justify-content: space-between;
-    margin-right: 30px;
+    background-color: seagreen;
 }
+
+
+
+/* .tick p {
+    color: white;
+} */
+
+
+
+
+
 
  
 
@@ -186,3 +201,17 @@ footer {
 }
 
 
+
+
+
+
+.test-container {
+
+    
+}
+
+.test {
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}

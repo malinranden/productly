@@ -5,10 +5,11 @@ body {
     
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 100;
+    font-weight: 350;
     font-style: normal;
     font-variation-settings:
     "wdth" 100;
+    color: #2F281E;
 }
 
 /*all sections*/
@@ -227,12 +228,11 @@ body {
 
 
 .section-3 {
-    background-color: cornflowerblue;
     height: 574px;
     margin-bottom: 101px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -244,6 +244,15 @@ body {
 .sec-3-img {
     width: 520px;
     height: 574px;
+}
+
+.sec-3-text > p {
+    font-size: 16px;
+}
+
+.sec-3-text > h2 {
+    font-size: 36px;
+    font-weight: bold;
 }
 
 

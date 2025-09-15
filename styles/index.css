@@ -5,7 +5,7 @@ body {
     
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 350;
+    font-weight: 450;
     font-style: normal;
     font-variation-settings:
     "wdth" 100;
@@ -13,7 +13,7 @@ body {
     
     display: flex;
     align-items: center;
-    /* justify-content: center; */
+    
 }
 
 
@@ -197,6 +197,7 @@ body {
     max-width: 240px;
     width: 100%;
     height: 178px;
+    line-height: 1.5;
 
 }
 
@@ -228,6 +229,8 @@ body {
     border: none;
     transform: translate(0, -90px);
 }
+
+
 
 
 
@@ -316,21 +319,23 @@ body {
 
 
 .section-5 {
-    background-color: darkkhaki;
     height: 609px;
     display: flex;
     align-items: center;
     margin-top: 104px;
     margin-bottom: 156px;
+    justify-content: space-between;
+    
 }
 
 .text-sec-5 {
     max-width: 486px;
-    height: 609px;
+    max-height: 531px; /*innan 601px tror jag - 609*/
+    height: 100%;
     display: flex;
-    background-color:salmon;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    
 }
 
 .img-sec-5 {
@@ -338,10 +343,26 @@ body {
     min-height: 609px;
 }
 
+.text-sec-5 > h2 {
+    font-size: 36px;
+    font-weight: bold;
+    transform: translate(0, -5px);
+}
+
+.text-sec-5 > p {
+    margin-top: -0px;
+    
+}
+
+.opt-text {
+    transform: translate(0, 30px);
+}
+
+
+
 
 
 footer {
-    background-color: burlywood;
     max-width: 1109px; /*skiljer sig lite från de andra*/
     width: 100%;
     height: 308px;
@@ -352,7 +373,16 @@ footer {
 }
 
 .footer-logo {
+    width: 190px;
+    height: 35px;
     margin-bottom: 173px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-footer {
+    transform: translate(0, -4px);
 }
 
 .footer-quick-links {
@@ -361,6 +391,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    line-height: 35px;
 }
 
 .footer-legal-stuff {
@@ -369,6 +400,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    line-height: 35px;
 }
 
 .footer-sign-up {
@@ -380,16 +412,26 @@ footer {
     justify-content: flex-end;
 }
 
-#write-your-phonenumber {
-    max-width: 325px;
+#write-your-phonenumber { /*varför sticker den ut?*/
+    width: 325px;
     height: 48px;
-    background-color: gray;
     padding: none;
     border: 1px;
+    border-style: solid;
     border-color: gray;
-    border-radius: 5px;
+    border-radius: 4px;
+    transform: translate(0, -21px);
 }
 
+.sign-up-now {
+    background-color: #FF9900;
+    width: 131px;
+    height: 39px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
 
 
 

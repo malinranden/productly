@@ -10,6 +10,10 @@ body {
     font-variation-settings:
     "wdth" 100;
     color: #2F281E;
+    
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
 }
 
 
